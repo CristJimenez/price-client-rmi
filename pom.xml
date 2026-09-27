@@ -14,4 +14,20 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <dependencies>
+        <!-- LipeRMI -->
+        <dependency>
+            <groupId>com.tascape.qa</groupId>
+            <artifactId>lipermi</artifactId>
+            <version>1.0.1</version>
+        </dependency>
+
+        <!-- Tu librería con PriceData e IRemoteCalculatePrice -->
+        <dependency>
+            <groupId>cristianjimenez.rmi</groupId>
+            <artifactId>price-lib-rmi</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
 </project>
